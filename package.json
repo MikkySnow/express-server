@@ -1,0 +1,25 @@
+{
+  "name": "mellow-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "nodemon bin/index.js",
+    "start-debug": "node --inspect --debug-brk bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tiranid99",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "busboy": "^0.2.14",
+    "connect-mongo": "^2.0.1",
+    "consolidate": "^0.15.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "mustache": "^2.3.0",
+    "nodemon": "^1.15.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}

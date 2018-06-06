@@ -1,0 +1,6 @@
+{
+    "port":8080,
+    "mongoUri":"mongodb://127.0.0.1/mellow_gallery",
+    "adminLogin":"dbadmin",
+    "adminPassword":"12345678"
+}
